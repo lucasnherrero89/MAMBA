@@ -1,0 +1,33 @@
+body {
+    background-image: url("../img/children-seamless-texture-yellow-background-46674260.jpg");
+}
+.col {
+    height: 1500px;
+    float: left;
+    margin: 5px;
+  }
+  .panel-superior {
+    background: #b366ff;
+    width: 99.2%;
+    height: 50px;
+  }
+  .col-izq {
+    background: #9999ff;
+    width: 14%;
+    float: left;
+  }
+  .col-cen {
+    background: #ccccff;
+    width: 45%;
+    float: left;
+  }
+  .col-der {
+    background: #0066ff;
+    width:39%;
+    float:left;
+  }
+  .panel-inferior {
+    background: #ff6699;
+    width: 99.2%;
+    height: 50px;
+  }
