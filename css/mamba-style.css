@@ -1,33 +1,52 @@
 body {
     background-image: url("../img/children-seamless-texture-yellow-background-46674260.jpg");
+    margin: 0px;
+}
+
+h1 {
+  background-color: darkgreen;
+  text-indent: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 .col {
     height: 1500px;
     float: left;
-    margin: 5px;
+    margin: 0.25%;
+    border: 2px dotted black;
   }
-  .panel-superior {
-    background: #b366ff;
-    width: 99.2%;
+
+  .panel {
+    width:100%;
     height: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
+
   .col-izq {
-    background: #9999ff;
     width: 14%;
     float: left;
+    margin-left: 0px;
   }
+
   .col-cen {
-    background: #ccccff;
-    width: 45%;
+    width: 46%;
     float: left;
   }
+
   .col-der {
-    background: #0066ff;
-    width:39%;
+    width:36%;
     float:left;
+    margin-right: 0px;
   }
-  .panel-inferior {
-    background: #ff6699;
-    width: 99.2%;
-    height: 50px;
+
+  ul.lista-links li {
+    list-style: none;
+    display: inline;
+    margin-left: 1px;
+    margin-right: 40px;
+    font-size: 20px;
   }
